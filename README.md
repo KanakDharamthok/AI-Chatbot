@@ -1,3 +1,3 @@
 # Chatbot
 
-##Chatbot project using LangChain + Groq
+Chatbot project using LangChain + Groq
