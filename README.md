@@ -60,6 +60,26 @@ A sleek, unified single-file AI workstation that provides:
 
 ---
 
+## 🧠 Supported Model Catalog (LPU Architecture)
+
+The interface utilizes LangChain's `ChatGroq` class wrapper to tap into distinct open-weight model branches hosted directly on Groq's deterministic LPU hardware infrastructure.
+
+### 1. Hardcoded Core Implementations
+* **`llama-3.1-8b-instant`** (Default Engine): Leverages a 128K context window running at high tokens per second. Optimized for real-time latency and conversational agility.
+* **`llama-3.3-70b-versatile`** (Evaluation / Advanced Engine): High-capacity model operating at deterministic `0.0` temperature to serve as the unbiased automated "Judge".
+
+### 2. Supported Drop-In Alternative Architectures
+The system's routing block is architecturally ready to scale across alternative open architectures via the Groq endpoint:
+
+| Model ID String | Developer Organization | Context Window | Target Use Case Profile |
+| :--- | :--- | :--- | :--- |
+| **`qwen3-32b`** | Alibaba (Qwen) | 128K Tokens | Complex localized multi-lingual execution and advanced code generation. |
+| **`openai/gpt-oss-120b`** | Open Source Community | 131K Tokens | Ultimate reasoning density, deep logical analysis, and complex macro-chain structuring. |
+| **`meta-llama/llama-4-scout-17b-16e-instruct`** | Meta (Llama 4 Preview) | 131K Tokens | Highly efficient Mixture of Experts (MoE) routing for tool use and structured parsing tasks. |
+| **`gemma-7b-it`** | Google (Gemma Family) | 8K Tokens | Ultra-lightweight, efficient parameter execution for focused instruction following. |
+
+---
+
 ## 🛠️ Technology Stack
 
 - **Frontend & App Interface:** Streamlit (Custom Embedded HTML/CSS)
