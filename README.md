@@ -1,4 +1,4 @@
-# 🤖 AI Chatbot
+# 🤖 Interactive AI Chatbot with Persistent Session Management
 
 **Enterprise-Grade Multi-Session Intelligence Hub & Automated Evaluation Arena**
 
