@@ -2,7 +2,7 @@
 
 **Enterprise-Grade Multi-Session Intelligence Hub & Automated Evaluation Arena**
 
-* **Live Prototype Link:** [https://ai-chatbot-sig3e4aph79h4fuxbagid4.streamlit.app/](https://ai-chatbot-sig3e4aph79h4fuxbagid4.streamlit.app/)]
+* **Live Prototype Link:** [https://ai-chatbot-sig3e4aph79h4fuxbagid4.streamlit.app/](https://ai-chatbot-sig3e4aph79h4fuxbagid4.streamlit.app/)
 
 ---
 
