@@ -8,7 +8,7 @@
 
 ## 🚀 Project Overview
 
-**AI Chatbot** is a high-performance, real-time conversational ecosystem engineered within a streamlined single-file Python architecture (`app.py`). Moving past basic, stateless API wrappers, this system introduces **isolated contextual memory routing**, **dynamic hyperparameter hot-swapping**, and an **automated LLM-as-a-Judge execution pipeline**. 
+**Interactive AI Chatbot with Persistent Session Management** is a high-performance, real-time conversational ecosystem engineered within a streamlined single-file Python architecture (`app.py`). Moving past basic, stateless API wrappers, this system introduces **isolated contextual memory routing**, **dynamic hyperparameter hot-swapping**, and an **automated LLM-as-a-Judge execution pipeline**. 
 
 The entire framework is optimized using LangChain Expression Language (LCEL) and backed by Groq Cloud’s hardware-accelerated LPU (Language Processing Unit) architecture to deliver sub-second token streaming.
 
